@@ -3,31 +3,86 @@ import React from "react"
 export
  const Perguntas  = [
     {
-        pergunta:'Qual século estamos?',
+        pergunta: 'Qual elemento da Tabela Periódica representado pela letra K?',
         opcoesResposta:[
-            {resposta:'20', correta:false, alternativa:'A)'},
-            {resposta:'22', correta:false, alternativa:'B)'},
-            {resposta:'21', correta:true, alternativa:'C)'},
-            {resposta:'19', correta:false, alternativa:'D)'},
+            {resposta:'Cobre', correta:false, alternativa:'A)'},
+            {resposta:'Potássio', correta:true, alternativa:'B)'},
+            {resposta:'Ferro', correta:false, alternativa:'C)'},
+            {resposta:'Enxofre', correta:false, alternativa:'D)'},
         ]
     },
     
     {
-        pergunta:'Onde está localizado o rio Tiête?',
+        pergunta: 'Quem foi o primeiro presidente do Brasil?',
         opcoesResposta:[
-            {resposta:'Minas Gerais', correta:false, alternativa:'A)'},
-            {resposta:'São Paulo', correta:true, alternativa:'B)'},
-            {resposta:'Santos', correta:false, alternativa:'C)'},
-            {resposta:'Maranhão', correta:false, alternativa:'D)'},
+            {resposta:'Getúlio Vargas', correta:false, alternativa:'A)'},
+            {resposta:'Deodoro da Fonseca', correta:true, alternativa:'B)'},
+            {resposta:'Floriano Peixoto', correta:false, alternativa:'C)'},
+            {resposta:'Campos Sales', correta:false, alternativa:'D)'},
         ]
     },
     {
-        pergunta: 'Qual o nome de Pitico',
+        pergunta: 'Qual dos quadros abaixo foram pintados por Tarsila do Amaral?',
         opcoesResposta:[
-            {resposta:'Pitico', correta:false, alternativa:'A)'},
-            {resposta:'João Pedro', correta:true, alternativa:'B)'},
-            {resposta:'Caneta Azul', correta:false, alternativa:'C)'},
-            {resposta:'João Carlos', correta:false, alternativa:'D)'},
+            {resposta:'Retirantes', correta:false, alternativa:'A)'},
+            {resposta:'Os Operários', correta:true, alternativa:'B)'},
+            {resposta:'A Boba', correta:false, alternativa:'C)'},
+            {resposta:'Homem Amarelo', correta:false, alternativa:'D)'},
+        ]
+    },
+    {
+        pergunta: 'Qual o menor país do mundo?',
+        opcoesResposta:[
+            {resposta:'Russia', correta:false, alternativa:'A)'},
+            {resposta:'Vaticano', correta:true, alternativa:'B)'},
+            {resposta:'Madagascar', correta:false, alternativa:'C)'},
+            {resposta:'Chile', correta:false, alternativa:'D)'},
+        ]
+    },
+    
+    {
+        pergunta: 'Qual tipo sanguineo é conhecido como doador universal?',
+        opcoesResposta:[
+            {resposta:'AB-', correta:false, alternativa:'A)'},
+            {resposta:'O-', correta:true, alternativa:'B)'},
+            {resposta:'AB+', correta:false, alternativa:'C)'},
+            {resposta:'O+', correta:false, alternativa:'D)'},
+        ]
+    },
+    {
+        pergunta: 'Qual filme foi ganhador do Oscar de Melhor filme em 2022',
+        opcoesResposta:[
+            {resposta:'Evil Dead: Rise', correta:false, alternativa:'A)'},
+            {resposta:'No Ritmo do Coração', correta:false, alternativa:'B)'},
+            {resposta:'Tudo em Todo Lugar ao Mesmo Tempo', correta:true, alternativa:'C)'},
+            {resposta:'A Mulher Rei', correta:false, alternativa:'D)'},
+        ]
+    },{
+        pergunta: 'Qual o menor país do mundo?',
+        opcoesResposta:[
+            {resposta:'Russia', correta:false, alternativa:'A)'},
+            {resposta:'Vaticano', correta:true, alternativa:'B)'},
+            {resposta:'Madagascar', correta:false, alternativa:'C)'},
+            {resposta:'Chile', correta:false, alternativa:'D)'},
+        ]
+    },
+    
+    {
+        pergunta: 'Qual tipo sanguineo é conhecido como doador universal?',
+        opcoesResposta:[
+            {resposta:'AB-', correta:false, alternativa:'A)'},
+            {resposta:'O-', correta:true, alternativa:'B)'},
+            {resposta:'AB+', correta:false, alternativa:'C)'},
+            {resposta:'O+', correta:false, alternativa:'D)'},
+        ]
+    },
+    {
+        pergunta: 'Qual filme foi ganhador do Oscar de Melhor filme em 2022',
+        opcoesResposta:[
+            {resposta:'Evil Dead: Rise', correta:false, alternativa:'A)'},
+            {resposta:'No Ritmo do Coração', correta:false, alternativa:'B)'},
+            {resposta:'Tudo em Todo Lugar ao Mesmo Tempo', correta:true, alternativa:'C)'},
+            {resposta:'A Mulher Rei', correta:false, alternativa:'D)'},
         ]
     }
 ]
