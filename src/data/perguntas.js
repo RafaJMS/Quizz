@@ -1,5 +1,3 @@
-import React from "react"
-
 export
  const Perguntas  = [
     {
@@ -57,32 +55,41 @@ export
             {resposta:'Tudo em Todo Lugar ao Mesmo Tempo', correta:true, alternativa:'C)'},
             {resposta:'A Mulher Rei', correta:false, alternativa:'D)'},
         ]
-    },{
-        pergunta: 'Qual o menor país do mundo?',
+    },
+    {
+        pergunta: 'O que é um triângulo escaleno?',
         opcoesResposta:[
-            {resposta:'Russia', correta:false, alternativa:'A)'},
-            {resposta:'Vaticano', correta:true, alternativa:'B)'},
-            {resposta:'Madagascar', correta:false, alternativa:'C)'},
-            {resposta:'Chile', correta:false, alternativa:'D)'},
+            {resposta:'Que tem todos os lados iguais', correta:false, alternativa:'A)'},
+            {resposta:'Que tem pelo menos 2 lados iguais', correta:false, alternativa:'B)'},
+            {resposta:'Que tem um angulo de 90º', correta:false, alternativa:'C)'},
+            {resposta:'Que tem todos os lados diferentes', correta:true, alternativa:'D)'},
         ]
     },
     
     {
-        pergunta: 'Qual tipo sanguineo é conhecido como doador universal?',
+        pergunta: 'Qual lei que diz que "um corpo em repouso tende a permanecer em repouso"?',
         opcoesResposta:[
-            {resposta:'AB-', correta:false, alternativa:'A)'},
-            {resposta:'O-', correta:true, alternativa:'B)'},
-            {resposta:'AB+', correta:false, alternativa:'C)'},
-            {resposta:'O+', correta:false, alternativa:'D)'},
+            {resposta:'Terceira Lei de Newton', correta:false, alternativa:'A)'},
+            {resposta:'Segunda Lei de Newton', correta:false, alternativa:'B)'},
+            {resposta:'Lei da Inércia', correta:true, alternativa:'C)'},
+            {resposta:'Lei da ação e reação', correta:false, alternativa:'D)'},
         ]
     },
     {
-        pergunta: 'Qual filme foi ganhador do Oscar de Melhor filme em 2022',
+        pergunta: 'Qual desses desenhos não foi criado na década de 90?',
         opcoesResposta:[
-            {resposta:'Evil Dead: Rise', correta:false, alternativa:'A)'},
-            {resposta:'No Ritmo do Coração', correta:false, alternativa:'B)'},
-            {resposta:'Tudo em Todo Lugar ao Mesmo Tempo', correta:true, alternativa:'C)'},
-            {resposta:'A Mulher Rei', correta:false, alternativa:'D)'},
+            {resposta:'As meninas super-poderosas', correta:false, alternativa:'A)'},
+            {resposta:'Tom e Jerry', correta:true, alternativa:'B)'},
+            {resposta:'Coragem, o cão covarde', correta:false, alternativa:'C)'},
+            {resposta:'Du, Dudu e Edu', correta:false, alternativa:'D)'},
+        ]
+    },{
+        pergunta: 'O Deus grego Morfeu era o Deus de que?',
+        opcoesResposta:[
+            {resposta:'Das comidas Morfadas', correta:false, alternativa:'A)'},
+            {resposta:'Do molhado', correta:false, alternativa:'B)'},
+            {resposta:'Do sono', correta:false, alternativa:'C)'},
+            {resposta:'Dos gatos', correta:true, alternativa:'D)'},
         ]
     }
 ]
