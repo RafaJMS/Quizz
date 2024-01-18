@@ -13,8 +13,8 @@ export
     {
         pergunta: 'Quem foi o primeiro presidente do Brasil?',
         opcoesResposta:[
-            {resposta:'Getúlio Vargas', correta:false, alternativa:'A)'},
-            {resposta:'Deodoro da Fonseca', correta:true, alternativa:'B)'},
+            {resposta:'Deodoro da Fonseca', correta:true, alternativa:'A)'},
+            {resposta:'Getúlio Vargas', correta:false, alternativa:'B)'},
             {resposta:'Floriano Peixoto', correta:false, alternativa:'C)'},
             {resposta:'Campos Sales', correta:false, alternativa:'D)'},
         ]
@@ -23,8 +23,8 @@ export
         pergunta: 'Qual dos quadros abaixo foram pintados por Tarsila do Amaral?',
         opcoesResposta:[
             {resposta:'Retirantes', correta:false, alternativa:'A)'},
-            {resposta:'Os Operários', correta:true, alternativa:'B)'},
-            {resposta:'A Boba', correta:false, alternativa:'C)'},
+            {resposta:'A Boba', correta:false, alternativa:'B)'},
+            {resposta:'Os Operários', correta:true, alternativa:'C)'},
             {resposta:'Homem Amarelo', correta:false, alternativa:'D)'},
         ]
     },
@@ -32,9 +32,9 @@ export
         pergunta: 'Qual o menor país do mundo?',
         opcoesResposta:[
             {resposta:'Russia', correta:false, alternativa:'A)'},
-            {resposta:'Vaticano', correta:true, alternativa:'B)'},
-            {resposta:'Madagascar', correta:false, alternativa:'C)'},
-            {resposta:'Chile', correta:false, alternativa:'D)'},
+            {resposta:'Madagascar', correta:false, alternativa:'B)'},
+            {resposta:'Chile', correta:false, alternativa:'C)'},
+            {resposta:'Vaticano', correta:true, alternativa:'D)'},
         ]
     },
     
@@ -88,8 +88,8 @@ export
         opcoesResposta:[
             {resposta:'Das comidas Morfadas', correta:false, alternativa:'A)'},
             {resposta:'Do molhado', correta:false, alternativa:'B)'},
-            {resposta:'Do sono', correta:false, alternativa:'C)'},
-            {resposta:'Dos gatos', correta:true, alternativa:'D)'},
+            {resposta:'Do sono', correta:true, alternativa:'C)'},
+            {resposta:'Dos gatos', correta:false, alternativa:'D)'},
         ]
     }
 ]

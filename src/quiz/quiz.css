@@ -1,9 +1,11 @@
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 30rem;
-    min-height: min-content;
+    width: 37rem;
+    height: 100%;
+    max-height: 27rem;
     border-radius: 15px;
     padding: 1rem;
     background-color: #355454;
@@ -11,7 +13,7 @@
     gap: 1.5rem;
 }
 h1{
-    padding: 5%;
+    padding: 4%;
     margin: 0;
     border-bottom: 1px solid white;
 }
@@ -22,6 +24,7 @@ h1{
     display: flex;
     gap: 1.5rem;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 .contagemPerguntas{
@@ -36,6 +39,7 @@ h1{
 
 .pergunta{
     margin-bottom: 0.9px;
+    font-size: 20px;
 }
 
 .resposta{
@@ -43,6 +47,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    gap: 1.5rem;
 }
 
 .grupoResposta{
@@ -50,23 +55,23 @@ h1{
     flex: 1 1 200px;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem;
 }
 
 button{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 
 
     background-color: #5f9ea0;
     width: 100%;
     padding: 8px;
     border-radius: 8px;
-    font-size: 16px;
+    
     cursor: pointer;
     border: 1px solid black;
-    margin: 0px 12px 10px;
+    margin: 5px 12px 5px;
 }
 
 button:hover{
@@ -80,4 +85,8 @@ button:hover{
     font-size: 22px;
     font-weight: bold;
     color: rgb(175, 118, 231);
+}
+#ponto{
+    padding: 3%;
+    width: 100%;
 }

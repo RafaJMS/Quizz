@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./quiz.css"
 import { Perguntas } from "../data/perguntas";
 
@@ -17,8 +17,20 @@ export default function Quizz(){
         if(proximaPergunta < questions.length){
             setPerguntaAtual(proximaPergunta)
         }else{
-           setPontuacao(true)}
+           setPontuacao(true)
+        }
     }
+
+    useEffect(()=>{
+        if(document.getElementById("ponto")){
+            if(pontos>5){
+                document.getElementById("ponto").innerText = `Parabéns! Você ta profissional no meu quiz! Sua pontuação foram ${pontos} de ${questions.length} pontos`
+            }else{
+                document.getElementById("ponto").innerText = `Vixe, só isso? Tenta uma pontuação melhor! Sua pontuação foram ${pontos} de ${questions.length} pontos`
+            }
+            
+        }
+    },[pontuacao])
     
     return(
         
@@ -26,7 +38,7 @@ export default function Quizz(){
         <h1>Rafa's QUIZZ</h1>
         {pontuacao ? (
             <div className='pontuacao'>
-                <span>Sua pontuação é {pontos} de {questions.length}</span>
+                <span id="ponto">Sua pontuação é {pontos} de {questions.length}</span>
             </div>
         ):(
         <>
